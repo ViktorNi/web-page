@@ -11,6 +11,14 @@
     --color5: #dbd6d6;
 }
 
+body {
+    background-image: url(../images/liminal-images/Xiao-LiminalSpaces.webp);
+    background-color: var(--color4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 nav {
     background-color: var(--color2);
     padding: 10px;
@@ -23,14 +31,25 @@ nav a {
     padding-left: 10px;
     padding-right: 10px;
     margin-left: -10px;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
 
 nav a:hover {
-    background-color: rgba(36, 33, 33);
-    color: var(--color2);
+    background-color: var(--color3);
+    color: #fff;
+    transition: 0.5s;
 }
+
+main {
+    background-color: #cac83ba2;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 850px;
+    height: 80%;
+    margin: 0 auto;
+} 
+
+
 
 
 
