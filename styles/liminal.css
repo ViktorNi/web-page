@@ -3,34 +3,30 @@
     padding: 0;
 }
 
-:root {
-    --color1: #bcc6b6;
-    --color2: #eaea42;
-    --color3: #cac83b;
-    --color4: #686464;
-    --color5: #dbd6d6;
-}
-
 body {
     background-image: url(../images/liminal-images/Xiao-LiminalSpaces.webp);
     background-color: var(--color4);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 nav {
-    background-color: var(--color2);
+    background-color: #d3c8c8b2;
     padding: 10px;
 }
 
 nav a {
+    background-color: brown;
     text-decoration: none;
     color: rgb(36, 33, 33);
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: -10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
@@ -42,12 +38,57 @@ nav a:hover {
 }
 
 main {
-    background-color: #cac83ba2;
+    background-color: #d3c8c8b2;
     font-family: Arial, Helvetica, sans-serif;
     width: 850px;
     height: 80%;
+    padding: 10px;
     margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 } 
+
+main h1 {
+    text-align: center;
+    padding: 10px;
+    color: rgba(133, 31, 31, 0.51);
+    margin: 10px;
+}
+
+main article {
+    width: 840px;
+    padding: 15px;
+    margin: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+main article p {
+    font-weight: bolder;
+    justify-content: space-between;
+    padding: 20%;
+    color: rgb(127, 30, 30);
+}
+
+main section {
+    background-color: rgba(0, 0, 0, 0.264);
+    width: 850px;
+    height: 425px;
+    border-radius: 8px;
+    box-shadow: 8px black;
+}
+
+main section img {
+    width: 100%;
+    height: 425px;
+    margin: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-radius: 8px;
+    border: 0.3px solid black;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
 
 
