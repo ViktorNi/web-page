@@ -18,17 +18,16 @@ nav {
 }
 
 nav a {
-    background-color: white;
+    background-color: rgba(132, 43, 216, 0.689);
+    color: rgb(221, 216, 216);
     text-decoration: none;
     padding: 10px;
-    margin: -10px;
-    font-size: larger;
-    font-weight: bold;
-    border-bottom-right-radius: 15px;
+    font-weight: bolder;
+    margin-left: -10px;
 }
 
 nav a:hover {
-
+    text-decoration: underline;
     
 }
 
