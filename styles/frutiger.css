@@ -1,0 +1,47 @@
+* { 
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(../images/frutiger-images/frutiger6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(28, 140, 28, 0.782);
+    padding: 10px;
+}
+
+nav a {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: -10px;
+    font-size: larger;
+    font-weight: bold;
+    border-bottom-right-radius: 15px;
+}
+
+nav a:hover {
+
+    
+}
+
+main {
+    background-color: #f5f5f5b8;
+    width: 1000px;
+    height: 80%;
+    margin: 0 auto;
+} 
+
+img {
+    width: 450px;
+    height: 250px;
+} 
+
+
