@@ -40,12 +40,18 @@ main {
     box-shadow: 1px 1px 1px 1px #272525;
 } 
 
-section img {
-    margin: 0 auto;
-    width: 600px;
-    height: 450px;
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section img {
+    width: 700px;
+    height: 500px;
     border-radius: 50%;
-    border: 2px solid rgb(92, 88, 88);
+    box-shadow: 2px 2px 2px 2px#2f322f;
+    border: 1px solid black;
 } 
 
 
