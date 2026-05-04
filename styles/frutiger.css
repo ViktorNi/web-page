@@ -1,9 +1,10 @@
 * { 
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
+    color: rgb(0, 99, 0);
     background-color: aquamarine;
     background-image: url(../images/frutiger-images/frutiger6.png);
     background-size: cover;
@@ -24,6 +25,7 @@ nav a {
     padding: 10px;
     font-weight: bolder;
     margin-left: -10px;
+    font-family: sans-serif;
 }
 
 nav a:hover {
@@ -53,5 +55,19 @@ main section img {
     box-shadow: 2px 2px 2px 2px#2f322f;
     border: 1px solid black;
 } 
+
+
+main article p{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    margin: 0 auto;
+    text-align: justify;
+    text-shadow: 5px #000000;
+}
 
 
