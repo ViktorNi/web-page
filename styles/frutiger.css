@@ -19,22 +19,19 @@ nav {
     position: relative; /* important */
 }
 
-nav a.back {
-    position: absolute;
-    top: 0;
-    left: 0;
 
-    background-color: rgba(132, 43, 216, 0.689);
-    color: rgb(221, 216, 216);
+nav a {
+    background-color: #10c410;
+    color: aliceblue;
+    padding: 10px;
+    margin: -10px;
+    font-weight: bolder;
     text-decoration: none;
-    padding: 10px 16px;
-    font-weight: bold;
-    font-family: sans-serif;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    
+    background-color: #fff;
+    color: rgb(28, 140, 28,0.782);
 }
 
 main {
