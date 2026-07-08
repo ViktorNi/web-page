@@ -96,6 +96,112 @@ main section img {
 }
 
 
+/* ===========================
+   Tablets
+=========================== */
+
+@media (max-width: 1024px) {
+
+    main {
+        width: 95%;
+    }
+
+    main article {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    main article p {
+        width: 100%;
+        font-size: 1.3rem;
+        box-sizing: border-box;
+    }
+
+    main h1 {
+        width: auto;
+    }
+}
+
+
+/* ===========================
+   Celulares
+=========================== */
+
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        display: block;
+        width: 90%;
+        margin-left: 0;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    main h1 {
+        width: auto;
+        font-size: 1.8rem;
+    }
+
+    main article {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    main article p {
+        width: 100%;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        box-sizing: border-box;
+    }
+
+    main section {
+        height: auto;
+    }
+
+    main section img {
+        height: auto;
+    }
+
+}
+
+
+/* ===========================
+   Celulares pequenos
+=========================== */
+
+@media (max-width: 480px) {
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    main article p {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    nav a {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+}
+
 
 
 
